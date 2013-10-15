@@ -1,0 +1,16 @@
+{
+"date" :"",
+"project_name" :"Puppet Labs",
+"project_url" :"http://puppetlabs.com",
+"scm_url":"https://github.com/puppetlabs/",
+"scm_name":"Puppet Labs GitHub",
+"scm_type":"git",
+"its_url":"",
+"its_name":"",
+"its_type":"",
+"mls_url":"",
+"mls_name":"Puppet Labs Google Groups",
+"mls_type":"Google Groups",
+"producer":"",
+"blog_url":"https://puppetlabs.com/blog"
+}
