@@ -35,18 +35,28 @@
                     <div class="MetricsEvol" data-data-source="scm"
                          data-metrics="scm_repositories" data-legend="false"></div>
                     <i>
-                        <b>Active Committers per month</b>
+                        <b>Active Git repositories per month</b>
                         <a href="notes.html#note:charts:repositories"><img src="qm_15.png"></a>
                     </i>
                 </div>
                 <!-- end graph -->
-
                 <!-- summary -->
                 <div class="span6">
                     <div class="FilterItemsSummary" data-data-source="scm"
                          data-filter="repos"></div>
                 </div>
                 <!-- end summary -->
+                </div>
+             <div id="summary-evol" class="row-fluid" style="padding: 30px;">
+                
+					 <!-- list of repositories -->
+            	 <div id="nav" class="row-fluid">
+                	<div class="FilterItemsNav" data-data-source="scm"
+                     data-order-by="scm_commits" data-filter="repos"></div>
+            	 </div>
+            	 <!-- end list of repositories -->
+
+                
             </div>
             <!-- evolution #repositories -->
 
@@ -82,13 +92,6 @@
                 <!-- end authors -->
             </div>
             <!-- end commits, authors repository -->
-
-            <!-- list of repositories -->
-            <div id="nav" class="row-fluid">
-                <div class="FilterItemsNav" data-data-source="scm"
-                     data-order-by="scm_commits" data-filter="repos"></div>
-            </div>
-            <!-- end list of repositories -->
 
             <!-- commits per repository -->
             <div id="list" class="row-fluid">
