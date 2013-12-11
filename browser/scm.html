@@ -71,16 +71,26 @@
                                         <span class="GlobalData" data-data-source="scm"
                                               data-field="scm_repositories"></span>
                                     </td>
-                                    <td>
-                                        repositories
-                                    </td>
+                                    <td>repositories</td>
                                 </tr>
                                 <tr>
-                                    <td>
-					<span class="GlobalData" data-data-source="scm"
-                                              data-field="avg_commits_author"></span>                                		
+                                    <td>					                                		
+                                      <span class="GlobalData" data-data-source="scm"
+                                              data-field="scm_files_7"></span>
                                     </td>
-                                    <td>commits/author</td>			                                
+                                    <td>modified files last week</td>			                                
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="span6">
+                            <table class="table table-striped">
+                                <tr>
+                                 <td>
+                                	<span class="GlobalData" data-data-source="scm"
+                                              data-field="scm_authors_7"></span>                                		
+                                    </td>
+                                    <td>active authors last week</td>
+
                                 </tr>
                                 <tr>
                                     <td>
@@ -89,37 +99,15 @@
                                     </td>
                                     <td>commits last week</td>
                                 </tr>
-                            </table>
-                        </div>
-                        <div class="span6">
-                            <table class="table table-striped">
-                                <tr>
-	                            <td><span class="GlobalData" data-data-source="scm"
-                                              data-field="scm_companies"></span></td>
-                                    <td>companies</td>
-                                </tr>                                
-                                <tr>
-                                    <td>
-                                	<span class="GlobalData" data-data-source="scm"
-                                              data-field="avg_files_author"></span>                                		
-                                    </td>
-                                    <td>files/author</td>
-                                </tr>                                
-                                <tr>
-                                    <td>
-                                	<span class="GlobalData" data-data-source="scm"
-                                              data-field="scm_authors_7"></span>                                		
-                                    </td>
-                                    <td>active authors last week</td>
-                                </tr>
+                                
                             </table>
                         </div>                        
                     </div>
                     
                     
                     <!-- top authors -->
-                    <div class="Top" data-data-source="scm" data-graph="bars"
-                         data-metric="authors" data-limit="10"
+                    <div class="Top" data-data-source="scm" data-period="last month"
+                         data-metric="authors" data-limit="9"
                          data-people_links="true" ></div>
                     <!-- end top authors -->
 
