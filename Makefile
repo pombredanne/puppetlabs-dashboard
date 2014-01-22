@@ -1,7 +1,9 @@
-test: vizgrimoire.min.js
+test: FORCE
 	cd test/jasmine; jasmine-headless-webkit -j jasmine.yml -c
 	cd ../..
 
-testci: vizgrimoire.min.js
+testci: FORCE
 	cd test/jasmine; xvfb-run jasmine-headless-webkit -j jasmine.yml -c
 	cd ../..
+	
+FORCE:

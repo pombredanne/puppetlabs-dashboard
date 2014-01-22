@@ -1,0 +1,1 @@
+{"VizGrimoireJS data validity":[1],"SCM Correlations":[22],"High commits and authors":[23],"High commits and files":[29],"Medium added lines and removed lines":[35],"ITS Correlations":[43],"Medium openers and opened":[44],"High closers and closed":[50],"Medium changers and changed":[56]}
