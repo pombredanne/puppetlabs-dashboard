@@ -13,6 +13,7 @@
 <link href="VizGrimoireJS/bootstrap/css/bootstrap-responsive.css"
   rel="stylesheet" />
 <link rel="shortcut icon" href="favicon.png" />
+<link rel="stylesheet" href="VizGrimoireJS/awesome/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -32,8 +33,8 @@
                 data-metrics="its_closed,its_opened" data-min="true"
                 data-frame-time="true"
                 style="height: 100px;"></div>
-              <div class="MicrodashText" data-metric="its_closed"></div>
-              <div class="MicrodashText" data-metric="its_opened"></div>
+              <div class="MicrodashText" data-metric="its_closed" data-name="true"></div>
+              <div class="MicrodashText" data-metric="its_opened" data-name="true"></div>
             </div>
           </div>
         </div>
@@ -47,12 +48,24 @@
                 data-metrics="its_closers,its_changers" data-min="true"
                 data-frame-time="true"
                 style="height: 100px;"></div>
-              <div class="MicrodashText" data-metric="its_closers"></div>
-              <div class="MicrodashText" data-metric="its_changers"></div>
+              <div class="MicrodashText" data-metric="its_closers" data-name="true"></div>
+              <div class="MicrodashText" data-metric="its_changers" data-name="true"></div>
             </div>
           </div>
         </div>
         <!-- end closers & changers -->
+
+        <!-- quantiles -->
+        <div class="row-fluid">
+        <div class="span12">
+        <div class="well">
+          <strong>Time to fix in hours</strong> (quantiles)
+        <div class="TimeTo" data-data-source="its" data-type="fix"
+          data-quantil="X0.99,X0.95,X0.5,X0.25"></div>
+          </div>
+          </div>
+          </div>
+          <!-- end quantiles -->
 
       </div>
       <!-- end left column-->
@@ -129,11 +142,6 @@
     <div class="row-fluid" style="margin-top: 20px;">
       <div class="row-fluid">
         <div class="span6">
-          <div class="well">
-            <strong>Time to fix in hours</strong> (quantiles)
-            <div class="TimeTo" data-data-source="its" data-type="fix"
-              data-quantil="X0.99,X0.95,X0.5,X0.25"></div>
-          </div>
         </div>
 
         <div class="span6"></div>

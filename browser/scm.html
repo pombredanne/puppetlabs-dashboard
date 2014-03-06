@@ -13,6 +13,7 @@
 <link href="VizGrimoireJS/bootstrap/css/bootstrap-responsive.css"
   rel="stylesheet" />
 <link rel="shortcut icon" href="favicon.png" />
+<link rel="stylesheet" href="VizGrimoireJS/awesome/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -50,6 +51,20 @@
           </div>
         </div>
         <!-- end authors -->
+
+        <!-- files -->
+        <div class="row-fluid">
+        <div class="span12">
+        
+        <div class="well">
+          <div class="MetricsEvol" data-data-source="scm"
+            data-metrics="scm_files" data-min="true" style="height: 120px;"></div>
+          <div class="MicrodashText" data-metric="scm_files"></div>
+        </div>
+        </div>
+        </div>
+        <!-- end files -->
+
 
       </div>
       <!-- end left column -->
@@ -122,24 +137,14 @@
     <!-- files, lines -->
     <div class="row-fluid">
 
-      <!-- files -->
-      <div class="span6">
-        <div class="well">
-          <div class="MetricsEvol" data-data-source="scm"
-            data-metrics="scm_files" data-min="true" style="height: 120px;"></div>
-          <div class="MicrodashText" data-metric="scm_files"></div>
-        </div>
-      </div>
-      <!-- end files -->
-
       <!-- lines -->
-      <div class="span6">
+      <div class="span12">
         <div class="well">
           <div class="MetricsEvol" data-data-source="scm"
             data-metrics="scm_added_lines,scm_removed_lines" data-min="true"
             data-legend="true" style="height: 120px;"></div>
-          <div class="MicrodashText" data-metric="scm_added_lines"></div>
-          <div class="MicrodashText" data-metric="scm_removed_lines"></div>
+          <div class="MicrodashText" data-metric="scm_added_lines" data-name="true"></div>
+          <div class="MicrodashText" data-metric="scm_removed_lines" data-name="true"></div>
         </div>
       </div>
       <!-- end lines -->

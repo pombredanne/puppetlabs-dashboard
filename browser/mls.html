@@ -13,6 +13,7 @@
         <link href="VizGrimoireJS/bootstrap/css/bootstrap-responsive.css"
               rel="stylesheet"/>
         <link rel="shortcut icon" href="favicon.png"/>
+<link rel="stylesheet" href="VizGrimoireJS/awesome/css/font-awesome.min.css">
     </head>
 
     <body>
@@ -49,6 +50,24 @@
                         </div>
                     </div>
                     <!-- end senders -->
+
+            <!-- time to attention -->
+            <div class="row-fluid">
+                <div class="span12">
+                    <div class="well">
+                        <h4>Time to Attention of Messages</h4>
+                        * (in hours)
+                        <div class="TimeTo" data-data-source="mls" data-type="attention"
+                             data-quantil="X0.95,X0.5"></div>
+                    </div>
+                </div>
+                <div class="span6"></div>
+            </div>
+            <!-- end time to attention -->
+
+
+
+                    
                 </div>
                 <!-- end left column -->
 
@@ -118,19 +137,6 @@
             </div>
             <!-- end msgs sent, senders, stats, top closers -->
 
-            <!-- time to attention -->
-            <div class="row-fluid">
-                <div class="span6">
-                    <div class="well">
-                        <h4>Time to Attention of Messages</h4>
-                        * (in hours)
-                        <div class="TimeTo" data-data-source="mls" data-type="attention"
-                             data-quantil="X0.95,X0.5"></div>
-                    </div>
-                </div>
-                <div class="span6"></div>
-            </div>
-            <!-- end time to attention -->
 
             <div class="row-fluid" style="margin-top:10px;">
                 <div class="span12">
