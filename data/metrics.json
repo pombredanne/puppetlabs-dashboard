@@ -377,6 +377,22 @@
         "column" : "qsenders"
     }
 
+},
+"releases": {
+    "releases_authors":{
+        "name" : "Module authors",
+        "desc" : "Module authors",
+        "column": "authors"
+    },
+    "releases_modules":{
+        "name" : "Number of modules",
+        "desc" : "Number of modules",
+        "column": "modules"
+    },
+    "releases_releases":{
+        "name" : "Number of module releases",
+        "desc" : "Number of module releases",
+        "column": "releases"
+    }
 }
-
 }
