@@ -1,1 +1,1 @@
-{"senders": 660, "sent": 81793}
+{"diff_netsenders_30": -6, "diff_netsenders_365": 101, "diff_netsenders_7": 10, "diff_netsent_30": 433, "diff_netsent_365": 32392, "diff_netsent_7": -387, "first_date": "2010-10-29", "last_date": "2014-06-07", "percentage_senders_30": 7, "percentage_senders_365": 38, "percentage_senders_7": 29, "percentage_sent_30": 10, "percentage_sent_365": 158, "percentage_sent_7": 29, "repositories": 1, "senders": 660, "senders_30": 78, "senders_365": 364, "senders_7": 44, "sent": 81800, "sent_30": 4615, "sent_365": 52767, "sent_7": 947}
