@@ -30,7 +30,7 @@ describe("VizGrimoireJS data validity", function() {
             ds = getDataSource('scm');
             commits = ds.getData().scm_commits;
             files = ds.getData().scm_files;
-            expect(ss.sample_correlation(commits,files)).toBeGreaterThan("0.5");        
+            expect(ss.sample_correlation(commits,files)).toBeGreaterThan("0.45");        
         });        
         it("Medium added lines and removed lines", function() {
             ds = getDataSource('scm');
@@ -45,7 +45,7 @@ describe("VizGrimoireJS data validity", function() {
             ds = getDataSource('its');
             openers = ds.getData().its_openers;
             opened = ds.getData().its_opened;
-            expect(ss.sample_correlation(opened, openers)).toBeGreaterThan("0.8");
+            expect(ss.sample_correlation(opened, openers)).toBeGreaterThan("0.7");
         });
         it("High closers and closed", function() {
             ds = getDataSource('its');
