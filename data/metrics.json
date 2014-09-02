@@ -364,29 +364,34 @@
     "qaforums_senders" : {
         "name" : "Persons posting messages",
         "desc" : "Number of persons posting messages to Q&A forums(s)",
-        "column" : "senders"
+        "column" : "senders",
+        "action" : "messages"
     },
     "qaforums_asenders" : {
         "name" : "Persons posting answers",
         "desc" : "Number of persons answering in Q&A forums(s)",
-        "column" : "asenders"
+        "column" : "asenders",
+        "action" : "answers"
     },
     "qaforums_qsenders" : {
         "name" : "Persons posting questions",
         "desc" : "Number of persons asking questions in Q&A forums(s)",
-        "column" : "qsenders"
+        "column" : "qsenders",
+        "action" : "questions"
     },
     "qaforums_participants" : {
         "name" : "Participants",
         "desc" : "Number of persons participating in Q&A forum(s)",
-        "column" : "participants"
+        "column" : "participants",
+        "action" : "messages"
     }
 },
 "releases": {
     "releases_authors":{
         "name" : "Module authors",
         "desc" : "Module authors",
-        "column": "authors"
+        "column": "authors",
+        "action" : "modules updated"
     },
     "releases_modules":{
         "name" : "Number of modules",

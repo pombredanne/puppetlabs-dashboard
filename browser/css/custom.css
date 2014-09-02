@@ -141,14 +141,25 @@ scm-contributors **/
     color: #f5f5f5;
 }
 .navbar-default .navbar-brand:hover { 
-    /*color: #ED9C06;*/
-    color: #f5f5f5;
+    /*color: #f5f5f5;*/
+    color: #ffffff;
+    text-shadow: 0 1px 0 #463981;
 }
 .navbar-default { 
-/*    background-color: #000000;
-    border-color: #ED9C06;*/
-    background-color: #ED9C06;
-    border-color: #000000;
+    /*background-color: #ED9C06;
+    border-color: #000000;*/
+
+  background-color: #7c6aab;
+  background-image: -moz-linear-gradient(top, #463981, #7c6aab);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#463981), to(#7c6aab));
+  background-image: -webkit-linear-gradient(top, #463981, #7c6aab);
+  background-image: -o-linear-gradient(top, #463981, #7c6aab);
+  background-image: linear-gradient(to bottom, #463981, #7c6aab);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff463981', endColorstr='#ff7c6aab', GradientType
+=0);
+
+
 }
 .navbar-fixed-top { 
     border-width: 0 0 2px;
@@ -190,7 +201,7 @@ scm-contributors **/
 /** Links **/
 
 a{ 
-   color: #ED9C06;
+   color: #0095dd;/*#ED9C06;*/
  }
 
 
