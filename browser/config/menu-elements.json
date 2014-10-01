@@ -22,11 +22,15 @@
             "contributors",
             "repos"
 	],
-	"forge": ["contributors"],
-	"extra1": [
-	    ["Link 1", "http://bitergia.com"],
-	    ["Link 2", "https://twitter.com/bitergia"],
-	    ["Link 2", "https://twitter.com/flossmetrics"]
+	"scr_off": [
+            "companies",
+            "companies-summary",
+            "countries",
+            "projects",
+            "repos"
+	],
+	"forge": [
+	    "contributors"
 	]
     },
     "releases":[]
