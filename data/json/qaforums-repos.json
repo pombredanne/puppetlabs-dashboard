@@ -1,1 +1,1 @@
-["DevOps", "Puppet", "", "hiera", "puppet3", "puppetmaster", "puppet-enterprise", "windows", "modules", "facter", "PuppetDB", "agent", "puppet_enterprise", "file", "module", "exec", "mcollective", "manifest", "ssl", "templates", "dashboard"]
+["Puppet", "DevOps", "", "hiera", "puppet3", "puppetmaster", "puppet-enterprise", "windows", "modules", "facter", "PuppetDB", "agent", "puppet_enterprise", "file", "module", "exec", "mcollective", "ssl", "templates", "manifest", "dashboard", "master"]
