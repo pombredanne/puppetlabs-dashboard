@@ -1,0 +1,37 @@
+{
+    "menu":{
+	"scm": [
+            "contributors",
+            "repos"
+	],
+	"mls": [
+            "contributors",
+            "repos"
+	],
+	"qaforums": [
+            "contributors"
+	],
+	"irc": [
+            "contributors",
+            "repos"
+	],
+	"studies": [
+            "demographics"
+	],
+	"its": [
+            "contributors",
+            "repos"
+	],
+	"scr_off": [
+            "companies",
+            "companies-summary",
+            "countries",
+            "projects",
+            "repos"
+	],
+	"forge": [
+	    "contributors"
+	]
+    },
+    "releases":[]
+}
